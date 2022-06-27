@@ -45,32 +45,32 @@ body {
 }
 
 .hoverr:hover a {
-    color: white;
+    color: rgb(179, 167, 204);
 }
 
 .header:hover {
     text-align: center;
-    color: white;
+    color: rgb(179, 167, 204);
     font-family: monospace;
 }
 
 .container:hover .seller {
-    color: white;
+    color: rgb(179, 167, 204);
 }
 
 .container:hover a {
-    color: white;
+    color: rgb(179, 167, 204);
 }
 
 .a {
     text-align: center;
-    color: white;
+    color: rgb(179, 167, 204);
     font-family: monospace;
 }
 
 .header:hover a {
     text-align: center;
-    color: white;
+    color: rgb(179, 167, 204);
     font-family: monospace;
 }
 
@@ -98,9 +98,9 @@ a {
 }
 
 .container:hover .seller {
-    color: white;
+    color: rgb(179, 167, 204);
 }
 
 .container:hover a {
-    color: white;
+    color: rgb(179, 167, 204);
 }
