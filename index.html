@@ -6,13 +6,15 @@
 
     <title>quad64</title>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <audio id="music" src="msc.mp3" autoplay loop onplaying="" style="display: none;"></audio>
+    <audio id="music" src="limerance.mp3" autoplay loop onplaying="" style="display: none;"></audio>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
 </head>
 
 <body>
+
+
     <div id="main" class="center">
         <div id="overlay" onclick="music.play(); addStuff();"><span class="header center" id="status_text"></span></div>
     </div>
@@ -88,12 +90,6 @@
 
         });
 
-        function audioPlay() {
-                var audio = document.getElementById("audio");
-                audio.volume = 1
-                audio.play()
-            }
-
         window.addEventListener("load", () => {
             setTimeout(() => {
                 if (!window.music.paused) {
@@ -161,11 +157,6 @@
             }).start();
         }
     </script>
- 
-    <audio loop preload="auto" id="audio">
-        <source src="limerance.mp3" type="audio/mp3">
-        </audio>
-
 </body>
 
 </html>
