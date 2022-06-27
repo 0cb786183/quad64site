@@ -1,2 +1,2 @@
-# quad64site
-basic
+# quad64.cf
+wank
